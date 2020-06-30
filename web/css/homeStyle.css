@@ -1,0 +1,57 @@
+body {
+    background:url('https://school298.spb.ru/images/700/DSC100784174.jpg');
+    margin:0px;
+    font-family: 'Ubuntu', sans-serif;
+    background-size: 100% 110%;
+}
+input {
+    width: 300px;
+    font-size: 13px;
+    padding: 6px 0 4px 10px;
+    border: 1px solid #cecece;
+    background: black;
+    border-radius: 8px;
+    opacity: 50%;
+}
+textarea {
+    /* = Убираем скролл */
+    overflow: auto;
+    border-radius: 8px 0 0 0;
+    /* = Убираем увеличение */
+    resize: none;
+    width: 300px;
+    height: 50px;
+    opacity: 50%;
+    /* = Добавим фон, рамку, отступ*/
+    background: #000000;
+    border: 1px solid #cecece;
+    border-radius: 8px 0 0 0;
+    padding: 8px 0 8px 10px;
+}
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    background: rgba(101, 101, 101, 0.86);
+    max-width: 45%;
+    width: 60%;
+    border-collapse: collapse;
+    text-align: center;
+}
+th {
+    font-weight: normal;
+    color: #b07a00;
+    border-bottom: 2px solid #184d8e;
+    padding: 10px 8px;
+}
+td {
+    color: #ffffff;
+    padding: 6px 5px;
+    transition: .3s linear;
+}
+tr:hover td {color: #a80000
+}
+select {
+    font-family: ‘Rouge Script’, cursive;
+    color: #1a4b00;
+    background: #827e7e;
+}

@@ -1,0 +1,55 @@
+body{ background:url('https://krot.info/uploads/posts/2020-01/1579230336_47-78.jpg');
+    margin:0px;
+    font-family: 'Ubuntu', sans-serif;
+    background-size: 100% 110%;}
+.button {
+    background-color: #ce1919;
+    border: none;
+    color: #00ffe79e;
+    padding: 6px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: ‘Rouge Script’, cursive;
+    border-radius: 8px 0 0 0;
+}
+.comment{
+    color: #112bac;
+    font-family: ‘Rouge Script’, cursive;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 33px;
+    text-shadow: 1px 1px 2px #3797b0;
+}
+.date{
+    color: #279d00;
+    font-family: ‘Rouge Script’, cursive;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 33px;
+    text-shadow: 1px 1px 2px #3797b0;
+}
+.user{
+    color: #b07a00;
+    font-family: ‘Rouge Script’, cursive;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 33px;
+    text-shadow: 1px 1px 2px #3797b0;
+}
+textarea {
+    /* = Убираем скролл */
+    overflow: auto;
+    border-radius: 8px 0 0 0;
+    /* = Убираем увеличение */
+    resize: none;
+    width: 300px;
+    height: 50px;
+
+    /* = Добавим фон, рамку, отступ*/
+    background: #000000;
+    border: 1px solid #ff0000;
+    border-radius: 8px 0 0 0;
+    padding: 8px 0 8px 10px;
+}

@@ -1,0 +1,47 @@
+body {
+    background:url('https://www.pixelstalk.net/wp-content/uploads/2016/06/Abstract-awakening-blue-backgrounds-wallpapers.jpg');
+    margin:0px;
+    font-family: 'Ubuntu', sans-serif;
+    background-size: 100% 110%;
+}
+
+.login {
+    margin:0 auto;
+    max-width:500px;
+}
+.login-header {
+    color: #6f2828;
+    text-align:center;
+    font-size:300%;
+}
+
+
+.l{
+    display: block;
+    appearance: none;
+    outline: 0;
+    width: 250px;
+
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin: 0 auto 10px auto;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+background: #e2e2fa;
+
+    transition-duration: 0.25s;
+    font-weight: 300;
+}
+.login-button{
+    display: block;
+    outline: 0;
+    width: 150px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin: 0 auto 10px auto;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    background: #45474e;
+}
